@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Amazon" />
+        <module name="Generic" />
+        <module name="Google" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="Amazon" target="1.5" />
+      <module name="eat-jan-172022-web-automation-framework" target="1.5" />
+      <module name="Generic" target="1.5" />
+      <module name="Google" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

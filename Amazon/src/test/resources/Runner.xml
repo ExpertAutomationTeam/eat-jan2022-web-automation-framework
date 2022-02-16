@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon Automation" parallel="false">
+    <parameter name="os" value="mac"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="url" value="https://www.amazon.com"></parameter>
+
+    <test name="Amazon test">
+        <classes>
+            <class name="search.SearchSingleItem"></class>
+        </classes>
+    </test>
+</suite>

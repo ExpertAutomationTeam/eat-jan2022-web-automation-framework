@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Amazon/Amazon.iml" filepath="$PROJECT_DIR$/Amazon/Amazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Google/Google.iml" filepath="$PROJECT_DIR$/Google/Google.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eat-jan-172022-web-automation-framework.iml" filepath="$PROJECT_DIR$/eat-jan-172022-web-automation-framework.iml" />
+    </modules>
+  </component>
+</project>
