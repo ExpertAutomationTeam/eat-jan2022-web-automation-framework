@@ -16,7 +16,7 @@ public class Search extends CommonAPI{
     @Test
     public void searchOnGoggle(){
         Assert.assertEquals("", "");
-        clickAndEnter("//*[@name='q']", "selenium");
+        //clickAndEnter("//*[@name='q']", "selenium");
         Assert.assertEquals("", "");
     }
 

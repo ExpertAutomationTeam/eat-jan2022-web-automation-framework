@@ -2,13 +2,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Amazon Automation" parallel="false">
-    <parameter name="os" value="mac"></parameter>
+    <!--<parameter name="useCloudEnv" value="false"></parameter>-->
+    <!--<parameter name="cloudEnvName" value="browserstack"></parameter>-->
+    <parameter name="os" value="OS X"></parameter>
+    <!--<parameter name="os_version" value="11"></parameter>-->
     <parameter name="browserName" value="chrome"></parameter>
+    <!--<parameter name="browserVersion" value="98"></parameter>-->
     <parameter name="url" value="https://www.amazon.com"></parameter>
 
     <test name="Amazon test">
         <classes>
             <class name="search.SearchSingleItem"></class>
+            <!--<class name="search.SearchMultipleItems"></class>-->
         </classes>
     </test>
 </suite>

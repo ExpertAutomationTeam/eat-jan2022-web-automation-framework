@@ -12,10 +12,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="Amazon" target="1.5" />
-      <module name="eat-jan-172022-web-automation-framework" target="1.5" />
-      <module name="Generic" target="1.5" />
-      <module name="Google" target="1.5" />
+      <module name="Amazon" target="1.8" />
+      <module name="eat-jan-172022-web-automation-framework" target="1.8" />
+      <module name="Generic" target="1.8" />
+      <module name="Google" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
